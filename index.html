@@ -1,181 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>My Personal Portfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">Abdelhak.L</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>@AbdelhakLou personal portfolio page</title>
-  </head>
-  <body>
-<div class="container">
-    <div class="row mt-5 pt-5">
-        <div class="col-md-6">
-            <h2>About</h2>
-            <p>I'm an IT technician, my work is focused on web application security research, pentesting and maintenance of linux based systems.</p>
-        </div>
-        <div class="col-md-6">
-            <h2>Skills</h2>
-            <ol><li>JavaScript</li><li>php</li><li>Python</li><li>Sql</li></ol>
-        </div>
-    </div>
-    <div class="row mt-2">
-        <div class="col-md-6">
-            <h2>Services</h2>
-            <b>1 - Technical support of linux based systems</b>
-            <p>I provide clients with technical maintenance, installation, configuration , updates, upgrades of system components of diffrent types of linux distributions debian, ubuntu, kali linux, parrot os, arch linux, centos, almalinux.</p>
-            <span class="mt-4"></span>
-            <b>2 - Web Application Pentesting</b>
-            <p>Web Application Pentest is based on the latest OWASP Top Ten framework which guarantees that your application is tested against a wide range of vulnerabilities. This ensures that the highest risk vulnerabilities are discovered and mitigated before attackers can exploit them.</p>
-            <span class="mt-4"></span>
-            <b>3- Scanning of all major and common vulnerability types</b>
-
-                <b>A- Access control issues:</b>
-                <ol><li>CWE-22 Path traversal</li>
-                <li>CWE-200 Information Disclosure</li>
-                <li>CWE-209 Information Exposure Through an Error Message</li>
-                <li>CWE-215 Information Exposure Through Debug Information</li>
-                <li>CWE-269 Privilege Escalation</li>
-                <li>CWE-284 Improper Access Control</li>
-                <li>CWE-287 Improper Authentication</li>
-                <li>CWE-307 Brute Force</li>
-                <li>CWE-313 Insufficient Session Expiration</li>
-                <li>CWE-322 Key Exchange without Entity Authentication</li>
-                <li>CWE-359 Privacy violation</li>
-                <li>CWE-425 Forced Browsing</li>
-                <li>CWE-639 Insecure Direct Object Reference</li></ol>
-
-                <b>A-2- Broken Access control issues:</b>
-                <ol><li>CAPEC-233 Horizontal Privilege Escalation</li>
-                <li>CAPEC-233 Vertical Privilege Escalation</li>
-                <li>CWE-639 Insecure Direct Object Reference</li>
-                <li>CWE-285 Improper Authorization</li>
-                <li>CWE-22 Path Traversal</li>
-                <li>CWE-284 Improper Access Control (Generic)</li>
-                <li>CWE-425 Forced Browsing</li></ol>
-
-                <b>B- Code Injection issues :</b>
-                <ol><li>CWE-96 Client-Side Template Injection</li>
-                <li>CWE-96 Server-Side Template Injection</li>
-                <li>NoSQL Injection</li>
-                <li>CWE-77 Command Injection (Generic)</li>
-                <li>CWE-90 LDAP Injection</li>
-                <li>CWE-89 SQL Injection</li>
-                <li>CAPEC-83 XPath Injection</li>
-                <li>CWE-91 XML Injection</li>
-                <li>CSV Injection</li>
-                <li>SOAP Injection</li></ol>
-
-
-                <b>C- Broken Authentication issues:</b>
-                <ol><li>CWE-384 Session Fixation</li>
-                <li>CWE-613 Insufficient Session Expiration</li>
-                <li>CWE-640 Weak Password Recovery Mechanism for Forgotten Password</li>
-                <li>CWE-287 Improper Authentication (Generic)</li>
-                <li>CWE-798 Use of Hard-coded Credentials</li>
-                <li>CWE-256 Plaintext Storage of a Password</li>
-                <li>CWE-307 Brute Force</li>
-                <li>CWE-620 Unverified Password Change</li></ol>
-
-                <b>D-Security Misconfiguration issues:</b>
-                <ol><li>CWE-548 Information Exposure Through Directory Listing</li>
-                <li>CWE-209 Information Exposure Through an Error Message</li>
-                <li>XXE-xml external entitties is part of misconfiguration category</li></ol>
-
-
-                <b>E- XSS - cross site scripting issues:</b>
-                <ol><li>CWE-79 Blind Cross-Site Scripting</li>
-                <li>CWE-79 Reflected Cross-Site Scripting</li>
-                <li></li>CWE-79 Stored Cross-Site Scripting
-                <li></li>CWE-79 DOM-Based Cross-Site Scripting
-                <li>CWE-79 Self Cross-Site Scripting</li></ol>
-
-                <b>F-Vulnerable Components :</b>
-                <ol><li>CWE-327 Use of a Broken or Risky Cryptographic Algorithm</li>
-                <li>CWE-657 Violation of Secure Design Principles</li>
-                <li>CWE-190 Integer Overflow</li></ol>
-
-                <b>G- Cryptographic issues:</b>
-                <ol><li>CWE-295 Improper Certificate Validation</li>
-                <li>CWE-328 Reversible One-Way Hash</li>
-                <li>CWE-296 Improper Following of a Certificate's Chain of Trust</li>
-                <li>CWE-326 Inadequate Encryption Strength</li>
-                <li>CWE-311 Missing Encryption of Sensitive Data</li>
-                <li>Cryptographic Issue (Generic)</li></ol>
-
-                <b>H- OTHER COMMON VULNERABILITIES :</b>
-                <ol></ol>
-                <li>CWE-502 Deserialization of Untrusted Data</li>
-                <li>Remote Code Execution</li>
-                <li>Email Spoofing</li>
-                <li>Homograph Attack</li>
-                <li>CWE-918 Server-Side Request Forgery</li>
-                <li>CWE-352 Cross-Site Request Forgery</li>
-                <li>CAPEC-101 Server-Side Include Injection</li>
-                <li>Fingerprinting</li>
-                <li>Banner Grabbing</li>
-                <li>CWE-98 Local File Inclusion</li>
-                <li>CWE-98 Remote File Inclusion</li>
-                <li>Buffer Overflow</li>
-                <li>CWE-400 Denial of Service</li>
-                <li>Reflected File Download</li>
-                <li>CWE-601 Open Redirect</li>
-                <li>Weak or Default Credentials</li>
-                <li>CWE-203 Information Exposure Through Discrepancy ('Enumeration')</li>
-                <li>Missing Cookie Flag</li>
-                <li>CAPEC-103 UI Redressing (Clickjacking)</li>
-                <li>No Rate Limiting</li>
-                <li>Missing Security Header</li>
-                <li>CAPEC-148 Content Injection</li>
-                <li>Web Cache Poisoning</li>
-                <li>CAPEC-460 HTTP Parameter Pollution</li>
-                <li>CWE-434 Unrestricted file upload</li>
-                <li>CWE-362 Race Condition</li>
-                <li>CWE-444 HTTP Request Smuggling</li>
-                <li>CWE-300 Man-in-the-Middle</li>
-                <li>CWE-840 Business Logic Error</li>
-                <li>CRLF Injection</li>
-                <li>CWE-121 Stack Overflow disclosure</li>
-                <li>Subdomain Takeover</li>
-                <li>Web Cache Deception</li>
-                <li>Host Header Injection</li>
-                <li>HTML Injection</li>
-                <li>CWE 602 Client-Side Enforcement of Server-Side Security</li>
-                <li>CWE-776 XML Entity Expansion</li>
-                <li>CWE-125 Out-of-bounds read</li>
-                <li>CWE-476 Null pointer Dereference</li>
-                <li>CWE-122 Heap Overflow</li>
-                <li>CAPEC-549 Malware</li>
-                <li>CWE-119 Memory Corruption (Generic)</li>
-
-        </div>
-        <div class="col-md-6"><h2>Contact</h2><p>You can find me on linkedin and twitter.</p></div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-</body>
+        <!-- Content section-->
+        <section class="py-2" id="about">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>About</h2><hr>
+                        <p class="lead">My name's Abdelhak.L and I'm and IT technician.</p>
+                        <p class="mb-0">My work is focused on web application security research, deployment of small-size API's and content management systems, Web application penetration testing and maintenance of linux based systems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section-->
+        <section class="py-2" id="services">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>Services</h2><hr>
+                        <p class="lead">I provide my clients with different services in the field of IT at high level.</p>
+                        <p class="mb-4"><strong>1 - Web Application Pentest:</strong> This is based on the latest OWASP Top Ten framework which guarantees that your application is tested against a wide range of vulnerabilities. This ensures that the highest risk vulnerabilities are discovered and mitigated before attackers can exploit them.</p>
+                        <p class="mb-4"><strong>2 - Deployment of Content Management Systems:</strong> Install and maintain different cms : wordpress, joomla, prestashop, drupal, course management systems(Moodle, LCMS)</p>
+                        <p class="mb-4"><strong>3 - Linux Administration:</strong> I handle the installation, administration and maintenance of different linux based systems, especially debian distributions(such as debian, ubuntu and its distros, kali linux and almalinux.)</p>
+                        <p class="mb-0"><strong>1 - Responsive Web Design:</strong> Responsive and smooth design for your web based application using the latest version of html, css and front-end framework boostrap. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+             <!-- Content section-->
+             <section class="py-2" id="contact">
+                <div class="container my-5">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <h2>Contact</h2><hr>
+                            <p class="lead">If you want to contact me, please don't hesitate to do so, I'm available on linkedin.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Abdelhak.L @2024</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+       
+    </body>
 </html>
